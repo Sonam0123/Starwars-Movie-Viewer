@@ -1,0 +1,38 @@
+.App {
+  display: grid;
+  text-align: center;
+  grid-column: 2;
+  grid-row: 2;
+}
+h1 {
+  text-align: center;
+  color: lightgray;
+  background-color: black;
+}
+.movies {
+  border-style: solid;
+  text-align: left;
+}
+
+.movieListBtn {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  font-size: large;
+  cursor: pointer;
+}
+
+.movieDetails {
+  grid-column: 2;
+  grid-row: 1;
+  border-style: solid;
+}
+img {
+  height: 100px;
+}
+#mainImg {
+  height: 30%;
+  width: 70%
+
+}
